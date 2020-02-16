@@ -1,0 +1,56 @@
+.find{
+    -webkit-animation-duration:4s ;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name:find ;
+    animation-name: find;
+}
+@keyframes find{
+from{
+    opacity: 0;
+
+}
+to{
+    opacity: 1;
+}
+}
+
+.finddown{
+    -webkit-animation-duration:1s ;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name:finddown ;
+    animation-name: finddown;
+}
+@keyframes finddown{
+    from{
+opacity: 0;
+-webkit-transform: translate3d(0, -100% ,0);
+transform: translate3d(0, -100% ,0);
+    }
+    to{
+        -webkit-transform: translate3d(0, 0 ,0);
+        transform: translate3d(0, 0 ,0);
+    }
+}
+.findup{
+    -webkit-animation-duration:1s ;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name:findup ;
+    animation-name: findup;
+}
+@keyframes findup{
+    from{
+opacity: 0;
+-webkit-transform: translate3d(0, 100% ,0);
+transform: translate3d(0, 100% ,0);
+    }
+    to{
+        -webkit-transform: translate3d(0, 0 ,0);
+        transform: translate3d(0, 0 ,0);
+    }
+}
